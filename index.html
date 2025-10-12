@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Assignment</title>
+  </head>
+  <body>
+    <center>
+      <h1>
+        <i><u>User Registration Form:</u></i>
+      </h1>
+    </center>
+    <br />
+    <form>
+      First Name:
+      <input type="text" name="fname" maxlength="25" required="true" />
+      <br /><br />
+      Last Name:
+      <input type="text" name="lname" maxlength="25" required="true" />
+      <br /><br />
+      Password:
+      <input type="password" name="password" maxlength="25" required="true" />
+      <br /><br />
+      Bio:
+      <textarea name="Feedback" rows="4" cols="30" required="true"></textarea>
+      <br /><br />
+      <fieldset>
+        <legend>Gender:</legend>
+        <label>
+          <input type="radio" name="Gender" value="Male" required="true" />Male
+        </label>
+        <br />
+        <label>
+          <input type="radio" name="Gender" value="Female" />Female
+        </label>
+        <br />
+        <label> <input type="radio" name="Gender" value="Other" />Other </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Interests:</legend>
+        <label>
+          <input type="checkbox" name="interest" value="Music" />Music
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="interest" value="Sports" />Sports
+        </label>
+        <br />
+        <label>
+          <input type="checkbox" name="interest" value="Reading" />Reading
+        </label>
+      </fieldset>
+      <br />
+      Country:
+      <select name="Country" required="true">
+        <option value="Pak">Pakistan</option>
+        <option value="China">China</option>
+        <option value="Russia">Russia</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Iran">Iran</option>
+      </select>
+      <br /><br />
+      Prefered Colors: <input type="color" name="color" required="true" />
+      <br /><br />
+      Profile Picture:
+      <input type="file" name="pic" accept="image/*" required="true" />
+      <br /><br />
+      Birthdate: <input type="date" name="dob" required="true" /> <br /><br />
+      Email: <input type="email" name="email" required="true" /> <br /><br />
+      Website: <input type="url" name="web" required="true" /> <br /><br />
+      Search: <input type="search" name="search" required="true" /> <br /><br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>

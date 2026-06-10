@@ -35,3 +35,12 @@ You can execute and preview this layout instantly on your system by following th
 1. **Clone the Repository:**
 ```bash
    git clone [https://github.com/sarmad-tabassum/html-form-assignment-bahria.git](https://github.com/sarmad-tabassum/html-form-assignment-bahria.git)
+Navigate to the Project Folder:
+
+Bash
+   cd html-form-assignment-bahria
+Launch the Form Application:
+Simply double-click the index.html file to render it directly in your browser, or use the VS Code Live Server extension for hot-reloading execution.
+
+📄 License
+This layout asset assignment is fully open-source and managed under the MIT License.
